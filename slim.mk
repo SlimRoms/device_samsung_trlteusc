@@ -17,10 +17,10 @@
 $(call inherit-product, device/samsung/trlteusc/full_trlteusc.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/slim/config/nfc_enhanced.mk)
 
 # Inherit common CM phone.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/slim/config/common_full_phone.mk)
 
 PRODUCT_DEVICE := trlteusc
-PRODUCT_NAME := cm_trlteusc
+PRODUCT_NAME := slim_trlteusc
