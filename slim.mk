@@ -22,5 +22,10 @@ $(call inherit-product, vendor/slim/config/nfc_enhanced.mk)
 # Inherit common CM phone.
 $(call inherit-product, vendor/slim/config/common_full_phone.mk)
 
-PRODUCT_DEVICE := trlteusc
 PRODUCT_NAME := slim_trlteusc
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_DEVICE="trlteusc" \
+    PRODUCT_NAME="trlteusc" \
+    BUILD_FINGERPRINT="samsung/trlteusc/trlteusc:4.4.4/KTU84P/N910R4USC1ANK5:user/release-keys" \
+    PRIVATE_BUILD_DESC="trlteusc-user 4.4.4 KTU84P N910R4USC1ANK5 release-keys"
