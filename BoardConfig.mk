@@ -20,6 +20,9 @@ TARGET_OTA_ASSERT_DEVICE := trlteusc,SM-N910R4
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := apq8084_sec_trlte_usc_defconfig
 
+# Camera
+TARGET_FIXUP_PREVIEW := true
+
 # Radio
 BOARD_RIL_CLASS := ../../../device/samsung/trlteusc/ril
 
